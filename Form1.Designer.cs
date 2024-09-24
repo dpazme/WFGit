@@ -28,13 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.butAceptar = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // butAceptar
+            // 
+            this.butAceptar.Location = new System.Drawing.Point(397, 135);
+            this.butAceptar.Name = "butAceptar";
+            this.butAceptar.Size = new System.Drawing.Size(75, 23);
+            this.butAceptar.TabIndex = 0;
+            this.butAceptar.Text = "aceptar";
+            this.butAceptar.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.butAceptar);
             this.Name = "Form1";
             this.Text = "FORMULARIOejemModificado";
             this.ResumeLayout(false);
@@ -42,6 +53,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button butAceptar;
     }
 }
 
