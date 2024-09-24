@@ -30,6 +30,7 @@
         {
             this.butAceptar = new System.Windows.Forms.Button();
             this.butsegundo = new System.Windows.Forms.Button();
+            this.lblotro = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // butAceptar
@@ -50,16 +51,27 @@
             this.butsegundo.Text = "segundo";
             this.butsegundo.UseVisualStyleBackColor = true;
             // 
+            // lblotro
+            // 
+            this.lblotro.AutoSize = true;
+            this.lblotro.Location = new System.Drawing.Point(233, 275);
+            this.lblotro.Name = "lblotro";
+            this.lblotro.Size = new System.Drawing.Size(63, 16);
+            this.lblotro.TabIndex = 2;
+            this.lblotro.Text = "soyelotro";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblotro);
             this.Controls.Add(this.butsegundo);
             this.Controls.Add(this.butAceptar);
             this.Name = "Form1";
             this.Text = "FORMULARIOejemModificado";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -67,6 +79,7 @@
 
         private System.Windows.Forms.Button butAceptar;
         private System.Windows.Forms.Button butsegundo;
+        private System.Windows.Forms.Label lblotro;
     }
 }
 
