@@ -30,7 +30,11 @@
         {
             this.butAceptar = new System.Windows.Forms.Button();
             this.butsegundo = new System.Windows.Forms.Button();
+<<<<<<< HEAD
+            this.lblotro = new System.Windows.Forms.Label();
+=======
             this.lblpepito = new System.Windows.Forms.Label();
+>>>>>>> origin/develop
             this.SuspendLayout();
             // 
             // butAceptar
@@ -52,6 +56,16 @@
             this.butsegundo.Text = "segundo";
             this.butsegundo.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
+            // lblotro
+            // 
+            this.lblotro.AutoSize = true;
+            this.lblotro.Location = new System.Drawing.Point(233, 275);
+            this.lblotro.Name = "lblotro";
+            this.lblotro.Size = new System.Drawing.Size(63, 16);
+            this.lblotro.TabIndex = 2;
+            this.lblotro.Text = "soyelotro";
+=======
             // lblpepito
             // 
             this.lblpepito.AutoSize = true;
@@ -60,13 +74,18 @@
             this.lblpepito.Size = new System.Drawing.Size(63, 16);
             this.lblpepito.TabIndex = 2;
             this.lblpepito.Text = "soydiana";
+>>>>>>> origin/develop
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+<<<<<<< HEAD
+            this.Controls.Add(this.lblotro);
+=======
             this.Controls.Add(this.lblpepito);
+>>>>>>> origin/develop
             this.Controls.Add(this.butsegundo);
             this.Controls.Add(this.butAceptar);
             this.Name = "Form1";
@@ -80,7 +99,11 @@
 
         private System.Windows.Forms.Button butAceptar;
         private System.Windows.Forms.Button butsegundo;
+<<<<<<< HEAD
+        private System.Windows.Forms.Label lblotro;
+=======
         private System.Windows.Forms.Label lblpepito;
+>>>>>>> origin/develop
     }
 }
 
