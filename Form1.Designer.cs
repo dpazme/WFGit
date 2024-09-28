@@ -41,6 +41,7 @@
             this.butAceptar.TabIndex = 0;
             this.butAceptar.Text = "aceptar";
             this.butAceptar.UseVisualStyleBackColor = true;
+            this.butAceptar.Click += new System.EventHandler(this.butAceptar_Click);
             // 
             // butsegundo
             // 

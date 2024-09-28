@@ -16,5 +16,10 @@ namespace WFGit
         {
             InitializeComponent();
         }
+
+        private void butAceptar_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola Mundo");
+        }
     }
 }
